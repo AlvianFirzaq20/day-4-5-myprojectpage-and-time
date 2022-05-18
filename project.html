@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Projectku</title>
+</head>
+
+<body class="abu">
+    <nav class="pageup">
+        <div class="left-side">
+            <!-- menu atas -->
+            <img src="logo.png" alt="">
+            <ul>
+                <li>
+                    <a href="index.html" class="home">Home</a>
+                </li>
+                <li>
+                    <a href="project.html" class="project" style="margin-left: 20px;">My project</a>
+                </li>
+            </ul>
+        </div>
+        <div class="right-side">
+            <a href="contact.html" class="contactku">contact me</a>
+        </div>
+    </nav>
+    <div class="question">
+        <form id="addprojectform" onSubmit="addproject()">
+            <H1>ADD MY PROJECT</H1>
+            <label for="pname">Project Name:</label><br>
+            <input type="text" id="pname" name="pname"><br>
+            <div class="date">
+                <div>
+                    <label for="sdate">Start Date:</label><br>
+                    <input type="date" id="sdate" name="sdate">
+                </div>
+                <div>
+                    <label for="edate">End Date:</label><br>
+                    <input type="date" id="edate" name="edate">
+                </div>
+
+            </div>
+            <label for="descrip">Description:</label><br>
+            <textarea id="descrip" style="width: 100%;" rows="10" required></textarea>
+            <label for="techno">Technologies</label><br>
+            <div class="date">
+                <div>
+                    <input type="checkbox" id="fa-brands fa-node-js" name="techno"> Node Js
+                </div>
+                <div>
+                    <input type="checkbox" id="fa-brands fa-java" name="techno"> Java
+                </div>
+            </div>
+            <div class="date">
+                <div>
+                    <input type="checkbox" id="fa-brands fa-react" name="techno"> React Js
+                </div>
+                <div>
+                    <input type="checkbox" id="fa-brands fa-js" name="techno"> JavaScript
+                </div>
+            </div>
+            <br>
+            <label for="ufile"> Upload Image:</label><br>
+            <div class="date1" style="background-color:white;">
+                <div style="flex-direction: row; display: flex;">
+                    <button type="button" style="display:block;width:120px; height:100%;"
+                        onclick="picture()">Choose</button>
+                    <input type='file' id="getFile">
+                </div>
+                <div class="d2">
+                    <img src="file.png">
+                </div>
+            </div>
+            <div class="submit">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+    <div class="truck">
+        <h1>
+            MY PROJECT
+        </h1>
+
+        <div class="list-card" id="list-card">
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>

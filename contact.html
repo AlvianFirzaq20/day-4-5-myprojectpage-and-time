@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Contact</title>
+</head>
+
+<body class="abu">
+    <nav class="pageup">
+        <div class="left-side">
+            <!-- menu atas -->
+            <img src="logo.png" alt="">
+            <ul>
+                <li>
+                    <a href="index.html" class="home">Home</a>
+                </li>
+                <li>
+                    <a href="project.html" class="project" style="margin-left: 20px;">My project</a>
+                </li>
+            </ul>
+        </div>
+        <div class="right-side">
+            <a href="contact.html" class="contactku">contact me</a>
+        </div>
+    </nav>
+    <div class="profile1">
+        <form onSubmit="return submitForm()">
+            <h1>GET IN TOUCH</h1>
+            <div>
+                <label for="input-name">Name</label>
+                <input type="text" name="" id="input-name" placeholder="Write Here..." />
+            </div>
+            <div>
+                <label for="input-email">Email</label>
+                <input type="email" name="" id="input-email" placeholder="Write Here..." />
+            </div>
+            <div>
+                <label for="input-phone">Phone Number</label>
+                <input type="text" name="" id="input-phone" placeholder="Write Here..." />
+            </div>
+            <div>
+                <label for="choose-object">Subject</label>
+                <select id="choose-object">
+                    <option value="">Web Developer</option>
+                    <option value="">Sofware Engineering</option>
+                    <option ion value="">Data Science</option>
+                </select>
+            </div>
+            <div>
+                <label for="input-message">Your Message</label>
+                <textarea name="" id="input-message" cols="30" rows="10" placeholder="Write Here..."></textarea>
+            </div>
+            <div class="btn-submit">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

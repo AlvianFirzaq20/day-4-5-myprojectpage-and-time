@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    /* index.html */
+}
+.pageup{
+    background-color:#F4F3F3;
+    display: flex;
+    align-items: center;
+    height: 7vh;
+}
+
+.pageup img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    object-fit: cover;
+    height: 6vh;
+    width: 4vw;
+}
+
+.pageup .left-side{
+    padding-left: 90px;
+    width: 50%;
+    display: flex;
+}
+
+.pageup ul{
+    list-style-type: none;
+}
+.pageup li{
+    margin-left: 20px;
+}
+.pageup .right-side{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    padding-right: 90px;
+}
+.contactku
+{
+    border-radius: 15px;
+    background-color: #000000;
+    padding: 5px 10px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    width: 100px;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.pageup ul li{
+    display: inline;
+    margin-left: 10px;
+}
+
+.pageup .left-side a{
+    text-decoration: none;
+    color: black;
+}
+
+.pageup .home{
+    font-weight: bold;
+}
+/* project.html */
+
+.question{
+    padding: 80px 30%;
+    min-width: 310px;
+    background-color: #E3E7EB;
+}
+form h1{
+    text-align: center;
+}
+.date 
+{
+    width: 100%;
+    display: flex;
+}
+.date div{
+    width: 100%;
+}
+input[type=text], input[type=date]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.date1{
+    height: 40.25px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.d2{
+    display: flex;
+    align-items: center;
+}
+.submit button{
+    background: #131929;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.submit{
+    display: flex;
+    justify-content: flex-end;
+}
+.truck{
+    background-color:#F8F8F8;
+    padding: 60px 60px;
+}
+#main{
+    width: 100%;
+}
+.truck h1{
+    text-align: center;
+}
+.list-card{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    width: 30%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 10px;
+}
+input[type=file]::file-selector-button {
+    border:none;
+    /* visibility: hidden; */
+    display: none;
+}

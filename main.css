@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+ 
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    /* index.html */
+}
+.pageup{
+    background-color:#F4F3F3;
+    display: flex;
+    align-items: center;
+    height: 7vh;
+}
+
+.pageup img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    object-fit: cover;
+    height: 6vh;
+    width: 4vw;
+}
+
+.pageup .left-side{
+    padding-left: 90px;
+    width: 50%;
+    display: flex;
+}
+
+.pageup ul{
+    list-style-type: none;
+}
+.pageup li{
+    margin-left: 20px;
+}
+.pageup .right-side{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    padding-right: 90px;
+}
+
+.pageup ul li{
+    display: inline;
+    margin-left: 10px;
+}
+
+.pageup .left-side a{
+    text-decoration: none;
+    color: black;
+}
+
+.pageup .home{
+    font-weight: bold;
+}
+
+.abu{
+    background-color: rgb(227, 230, 233);
+}
+.contactku{
+    border-radius: 15px;
+    background-color:#000000;
+    padding: 5px 10px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    width: 100px;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.contactku a{
+    text-decoration: none;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile{
+    display: flex;
+    padding: 30px 30px;
+    width: 65rem;
+    gap: 40px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.profile .left1{
+    width: 70%;
+}
+.profile .left1 p{
+    text-align: justify;
+}
+
+.profile .right1{
+    background-color: white;
+    width: 281.2px;
+    height: 400.5px;
+    text-align: center;
+    border-radius: 6px;
+    margin-right: 20px;
+    margin-left: 10px;
+    filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
+}
+.right1 h3{
+    margin: 0px;
+}
+.right1 p{
+    margin: 0px;
+}
+
+.right1 img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 281.20px;
+    height: 329.35px;
+}
+
+.profile .left1 img{
+    object-fit: cover;
+    width: 100%;
+    height: 70%;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.medsos{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+/* contact.html */
+.profile1{
+    border: 0px solid #1E272E;
+    border-radius: 5px;
+    width: 200vh;
+    height: 100vh;
+    background-color: white;
+    box-shadow: 0px 0px 15px rgb(79, 79, 79);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+form {
+    width: 400px;
+}
+  
+form h1 {
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+  
+form div {
+    margin-bottom: 20px;
+}
+  
+form div label {
+    font-size: 20px;
+    font-weight: 700;
+}
+  
+form div input {
+    width: 100%;
+    background-color: #f4f3f3;
+    border: 1px solid #c4c4c4;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 8px;
+}
+form div select {
+    width: 105%;
+    background-color: #f4f3f3;
+    border: 1px solid #c4c4c4;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 8px;
+}
+  
+form div textarea{
+    width: 100%;
+    background-color: #f4f3f3;
+    border: 1px solid #c4c4c4;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 8px;
+    resize: vertical;
+    height: 100px;
+}
+  
+form button{
+    background-color: #ec4d37;
+    color: white;
+    border: none;
+    padding: 8px 190px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn-submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+}
+/* detail project */
+.detail-content{
+    text-align: justify;
+}
+.head-detail-item{
+    display: grid;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+}
+.head-detail-image{
+    object-fit: cover;
+    border-radius: 10px;
+    width: 70%;
+}
+.head-detail{
+    display: flex;
+    gap: 30px;
+    height: 70vh;
+    margin-bottom: 20px;
+}
+.detail-page{
+    margin: 40px;
+}
